@@ -1,0 +1,293 @@
+*{
+    margin:0;
+    padding:0;
+}
+.container{
+    height:100vh;
+    width:100vw;
+    background-color:bisque ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image:url(./2nd\ temp\ image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet); */
+}
+.maindiv{
+    height:70vh;
+    width:40vw;
+    background-color:rgb(9, 47, 117) ;
+    border: 2px black solid;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-items: center;
+    margin-left: 300px;
+    border-radius: 20px;
+    box-shadow: 13px 15px 13px gray;
+
+}
+.maindiv header{
+    height:13vh;
+    width:35vw;
+    /* border: 2px black solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-style: italic;
+    font-size: 25px;
+}
+.div1{
+    height:13vh;
+    width:35vw;
+    /* border: 2px black solid; */
+    display: flex;
+    justify-content:center;
+    align-items: center;
+   
+}
+#celsinput, #ferhninput, #kelvininput{
+    background-color: darkgray;
+    font-size: 20px;
+    border-radius: 15px 0px 0px 15px;
+    height:7vh ;
+    width:25vw;
+    /* border: 2px black solid; */
+    box-shadow: 5px 5px 10px gray;
+   
+}
+.div2{
+    height:13vh ;
+    width:35vw;
+    /* border: 2px black solid; */
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.div3{
+    height:13vh ;
+    width:35vw;
+    /* border: 2px black solid; */
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.div4{
+    height:10vh ;
+    width:35vw;
+    /* border: 2px black solid; */
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+#btnclear{
+    height:8vh ;
+    width:30vw;
+    border: 2px black solid;
+    background-color: rgb(4, 37, 90);
+    border-radius: 15px;
+    cursor: pointer;
+    /* box-shadow: 5px 10px 20px whitesmoke inset; */
+    box-shadow: 5px 5px 8px whitesmoke ;
+    color: white;
+    font-size: 20px;
+    font-style: italic;
+}
+/* #celsinput{
+    height:6vh ;
+    width:20vw;
+    border: 2px black solid;
+   
+}
+#ferhninput{
+    height:6vh ;
+    width:20vw;
+    border: 2px black solid;
+}
+#kelvininput{
+    height:6vh ;
+    width:20vw;
+    border: 2px black solid;
+} */
+#btnC{
+    height:7.6vh ;
+    width:6vw;
+    /* border: 2px black solid; */
+    background-color:rgb(6, 6, 78);
+    border-radius: 0px 15px 15px 0px;
+    box-shadow: 5px 5px 10px gray;
+    font-size: 15px;
+    font-style: italic;
+    color: white;
+}
+#btnF{
+    height:7.6vh ;
+    width:6vw;
+    /* border: 2px black solid; */
+    background-color:rgb(6, 6, 78);
+    border-radius: 0px 15px 15px 0px;
+    box-shadow: 5px 5px 10px gray;
+    font-size: 15px;
+    font-style: italic;
+    color: white;
+}
+
+#btnK{
+    height:7.6vh ;
+    width:6vw;
+    /* border: 2px black solid; */
+    background-color:rgb(6, 6, 78);
+    border-radius: 0px 15px 15px 0px;
+    box-shadow: 5px 5px 10px gray;
+    font-size: 15px;
+    font-style: italic;
+    color: white;
+}
+
+/* @media screen and (max-width:1280px){
+    .maindiv{
+        height:75vh;
+        width:50vw;
+        margin-left:200px;
+        box-shadow: 10px 10px 5px gray;
+    }
+    .maindiv header{
+        height:10vh;
+        width:45vw;
+        border: 2px black solid;
+        font-size:25px;
+    }
+    .div1, .div2, .div3{
+        height:15vh;
+        width:45vw;
+        border: 2px black solid;
+    }
+    #celsinput, #ferhninput, #kelvininput{
+        background-color: darkgray;
+        font-size: 20px;
+        border-radius: 15px 0px 0px 15px;
+        height:7vh ;
+        width:32vw;
+        border: 2px black solid;
+        box-shadow: 5px 5px 5px gray;
+    }
+    #btnC, #btnF, #btnK{
+        height:7.6vh;
+        width:10vw;
+        font-size:13px ;
+
+    }
+
+} */
+@media screen and (max-width:1024px){
+    .maindiv{
+        height:75vh;
+        width:50vw;
+        margin-left:200px;
+        box-shadow: 10px 10px 5px gray;
+    }
+    .maindiv header{
+        height:8vh;
+        width:60vw;
+        /* border: 2px black solid; */
+        font-size: 15px;
+    }
+    .div1, .div2, .div3{
+        height:15vh;
+        width:45vw;
+        /* border: 2px black solid; */
+    }
+    #celsinput, #ferhninput, #kelvininput{
+        background-color: darkgray;
+        font-size: 20px;
+        border-radius: 15px 0px 0px 15px;
+        height:7vh ;
+        width:40vw;
+        /* border: 2px black solid; */
+        box-shadow: 5px 5px 5px gray;
+    }
+    #btnC, #btnF, #btnK{
+        height:7.6vh;
+        width:14vw;
+        font-size:13px ;
+
+    }
+}
+
+@media screen and (max-width: 720px){
+    .maindiv{
+        height:70vh;
+        width:60vw;
+        margin-left:110px;
+        box-shadow: 10px 10px 5px gray;
+    }
+    .maindiv header{
+        height:8vh;
+        width:60vw;
+        /* border: 2px black solid; */
+        font-size: 15px;
+    }
+    .div1, .div2, .div3{
+        height:13vh;
+        width:60vw;
+        /* border: 2px black solid; */
+    }
+    #celsinput, #ferhninput, #kelvininput{
+        background-color: darkgray;
+        font-size: 20px;
+        border-radius: 15px 0px 0px 15px;
+        height:7vh ;
+        width:40vw;
+        /* border: 2px black solid; */
+        box-shadow: 5px 5px 5px gray;
+    }
+    #btnC, #btnF, #btnK{
+        height:7.6vh;
+        width:14vw;
+        font-size:13px ;
+
+    }
+
+}
+
+@media screen and (max-width: 480px){
+    .maindiv{
+        height:70vh;
+        width:80vw;
+        margin-left: 3px;
+        box-shadow: 10px 10px 5px gray;
+    }
+    .maindiv header{
+        height:8vh;
+        width:70vw;
+        /* border: 2px black solid; */
+        font-size: 15px;
+    }
+    .div1, .div2, .div3{
+        height:13vh;
+        width:70vw;
+        /* border: 2px black solid; */
+    }
+    #celsinput, #ferhninput, #kelvininput{
+        background-color: darkgray;
+        font-size: 20px;
+        border-radius: 15px 0px 0px 15px;
+        height:7vh ;
+        width:50vw;
+        /* border: 2px black solid; */
+        box-shadow: 5px 5px 5px gray;
+    }
+    #btnC, #btnF, #btnK{
+        height:7.6vh;
+        width:15vw;
+        font-size:10px ;
+
+    }
+
+}
+
+
+
